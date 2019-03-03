@@ -51,20 +51,22 @@
 </ul>
 
 <h3>Setup vhost e.g.</h3>
-<VirtualHost *:80>
-        ServerName www.test.local
-        ServerAdmin mac@localhost
-        DocumentRoot /var/www/devroot/projects/test
+<code>
+        <VirtualHost *:80>
+                ServerName www.test.local
+                ServerAdmin mac@localhost
+                DocumentRoot /var/www/devroot/projects/test
 
-        <Directory /var/www/>
-          Options Indexes FollowSymLinks
-          AllowOverride All
-          Require all granted
-        </Directory>
+                <Directory /var/www/>
+                  Options Indexes FollowSymLinks
+                  AllowOverride All
+                  Require all granted
+                </Directory>
 
-        ErrorLog ${APACHE_LOG_DIR}/testerror.log
-        CustomLog ${APACHE_LOG_DIR}/testaccess.log combined
-</VirtualHost>
+                ErrorLog ${APACHE_LOG_DIR}/testerror.log
+                CustomLog ${APACHE_LOG_DIR}/testaccess.log combined
+        </VirtualHost>
+</code>
 
 <h3>Edit hosts file on Windows</h3>
 <ul>
