@@ -73,7 +73,7 @@
         <li>add a new line 127.0.0.1 www.test.local</li>
 </ul>
 
-<h3>Disable terminal's bell sound on tab-completion</h3>
+<h2>Disable terminal's bell sound on tab-completion</h2>
 <ul>
         <li>sudo nano /etc/inputrc</li>
         <li>uncomment set bell-style none</li>
