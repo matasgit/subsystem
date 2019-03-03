@@ -1,6 +1,4 @@
-+-------------------+
-| install subsystem |
-+-------------------+
+<h1>install subsystem</h1>
 
 1) press win key
 2) type Turn Windows Features on or of
