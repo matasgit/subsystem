@@ -1,39 +1,53 @@
---install subsystem
++-------------------+
+| install subsystem |
++-------------------+
+
 1) press win key
 2) type Turn Windows Features on or of
 3) tick Windows Subsystem for Linux
 4) go to MS store and install your flavor of linux
 
---Install node and npm
+
++----------------------+
+| install node and npm |
++----------------------+
+
 1) sudo apt install curl 
 2) curl -sL https://deb.nodesource.com/setup_11.x | sudo bash -
 3) sudo apt install nodejs
+
 (replace setup_11.x with current version)
 
 
---Install git
++-------------+
+| install git |
++-------------+
+
 1) sudo apt install git
 
 
---Install stack
-1) sudo apt-get install apache2
++-----------------------------------+
+| install apache / php / postgresql |
++-----------------------------------+
+
+1) sudo apt install apache2
 2) sudo apt install postgresql postgresql-contrib
-3) sudo apt-get install php
+3) sudo apt install php
 
--Restart apache and postgres
-sudo service apache2 restart
-sudo service postgresql restart
+--restart apache and postgres
+1) sudo service apache2 restart
+2) sudo service postgresql restart
 
--set postgres password (to connect from pgAdmin etc)
-sudo su postgres (enter your pass)
-psql
-\password
-\q
+--set postgres password (to connect from pgAdmin etc)
+1) sudo su postgres (enter your pass)
+2) psql
+3) \password
+4) \q
 
--Create a symlink between windows projects folder and folder on linux subsystem e.g.
-sudo ln -s /mnt/c/projects /var/www/devroot
+--create a symlink between windows projects folder and folder on linux subsystem e.g.
+1) sudo ln -s /mnt/c/projects /var/www/devroot
 
--Setup vhost on linux subsystem e.g.
+--setup vhost on linux subsystem e.g.
 <VirtualHost *:80>
         ServerName www.test.local
         ServerAdmin mac@localhost
@@ -49,21 +63,17 @@ sudo ln -s /mnt/c/projects /var/www/devroot
         CustomLog ${APACHE_LOG_DIR}/testaccess.log combined
 </VirtualHost>
 
--Edit hosts file on windows
-1) Press windows key
-2) Type in Notepad
-3) Right click and open as Administrator
-4) With the Notepad open the C:\Windows\System32\Drivers\etc\hosts (make sure all files are selected)
-5) Add a new line 127.0.0.1 www.test.local
+--edit hosts file on windows
+1) press win key
+2) type in Notepad
+3) right click and open as Administrator
+4) with the Notepad open the C:\Windows\System32\Drivers\etc\hosts (make sure all files are selected in the file type dropdown)
+5) add a new line 127.0.0.1 www.test.local
 
 
--------------------
-disable bash sound
-To disable the beep of the bash you need to uncomment (add if not already there):
-set bell-style none in your /etc/inputrc file. 
-Note: Since it is a read-only file you will need to be a sudoer.
++-------------------------------+
+| do not bell on tab-completion |
++-------------------------------+
 
-
-
-
-
+1) sudo nano /etc/inputrc
+2) uncomment set bell-style none
