@@ -4,22 +4,21 @@
 3) tick Windows Subsystem for Linux
 4) go to MS store and install your flavor of linux
 
-
 --Install node and npm
-sudo apt install curl 
-curl -sL https://deb.nodesource.com/setup_11.x | sudo bash -
-sudo apt install nodejs
+1) sudo apt install curl 
+2) curl -sL https://deb.nodesource.com/setup_11.x | sudo bash -
+3) sudo apt install nodejs
 (replace setup_11.x with current version)
 
 
 --Install git
-sudo apt install git
+1) sudo apt install git
 
 
--Install stack
-sudo apt-get install apache2
-sudo apt install postgresql postgresql-contrib
-sudo apt-get install php
+--Install stack
+1) sudo apt-get install apache2
+2) sudo apt install postgresql postgresql-contrib
+3) sudo apt-get install php
 
 -Restart apache and postgres
 sudo service apache2 restart
