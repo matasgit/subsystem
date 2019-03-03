@@ -51,7 +51,7 @@
 </ul>
 
 <h3>Setup vhost e.g.</h3>
-<code>
+<pre>
         <VirtualHost *:80>
                 ServerName www.test.local
                 ServerAdmin mac@localhost
@@ -66,7 +66,7 @@
                 ErrorLog ${APACHE_LOG_DIR}/testerror.log
                 CustomLog ${APACHE_LOG_DIR}/testaccess.log combined
         </VirtualHost>
-</code>
+</pre>
 
 <h3>Edit hosts file on Windows</h3>
 <ul>
