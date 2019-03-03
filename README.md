@@ -1,4 +1,4 @@
-<h1>Cheatsheet on how to set up Windows subsystem for Linux (WSL) for the local development</h1>
+<h1>Cheatsheet on how to setup Windows subsystem for Linux (WSL) for the local development</h1>
 <p>Linux, Node.js, npm, Git, Apache, PHP, PostgreSQL</p>
 
 <h2>Install subsystem</h2>
@@ -9,7 +9,7 @@
         <li>go to MS store and install your flavor of linux</li>
 </ul>
 
-<h2>Install Node.js and npm</h2>
+<h2>Install and setup Node.js and npm</h2>
 <ul>
         <li>sudo apt install curl</li> 
         <li>url -sL https://deb.nodesource.com/setup_11.x | sudo bash -</li>
@@ -17,9 +17,11 @@
 </ul>
 <p>replace setup_11.x with current version</li>
 
-<h2>Install Git</h2>
+<h2>Install and setup Git</h2>
 <ul>
         <li>sudo apt install git</li>
+        <li>git config --global user.email "you@example.com"</li>
+        <li>git config --global user.name "Your Name"</li>
 </ul>
 
 <h2>install and set up Apache, PHP, PostgreSQL</h2>
