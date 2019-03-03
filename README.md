@@ -1,10 +1,15 @@
-<h1>install subsystem</h1>
+<h1>Cheatsheet on how to set up Windows subsystem for Linux (WSL) for the local development</h1>
 
-1) press win key
-2) type Turn Windows Features on or of
-3) tick Windows Subsystem for Linux
-4) go to MS store and install your flavor of linux
+<p>Linux, Node.js, npm, Git, Apache, PHP, PostgreSQL</p>
 
+<h2>install subsystem</h2>
+
+<ul>
+        <li>press win key</li>
+        <li>type Turn Windows Features on or of</li>
+        <li>tick Windows Subsystem for Linux</li>
+        <li>go to MS store and install your flavor of linux</li>
+</ul>
 
 +----------------------+
 | install node and npm |
