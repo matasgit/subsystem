@@ -33,7 +33,7 @@ replace setup_11.x with current version</li>
 * sudo apt install php
 
 
-## install PostgreSQL
+## Install PostgreSQL
 
 ### latest for Debian
 
