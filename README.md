@@ -44,6 +44,8 @@ replace setup_11.x with current version</li>
 * wget -q https://www.postgresql.org/media/keys/ACCC4CF8.asc -O - | sudo apt-key add -
 * sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ YOUR_UBUNTU_VERSION_HERE-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'
 
+### run this for either
+
 * sudo apt install postgresql postgresql-contrib
 
 ### Restart Apache and PostgreSQL
