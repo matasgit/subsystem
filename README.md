@@ -47,6 +47,7 @@ replace setup_11.x with current version</li>
 
 ### run this for either
 
+* sudo apt-get update
 * sudo apt install postgresql postgresql-contrib
 
 
