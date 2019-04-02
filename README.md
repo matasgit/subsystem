@@ -27,7 +27,7 @@ replace setup_11.x with current version</li>
 * git config --global user.name "Your Name"
 
 
-## install and set up Apache, PHP, PostgreSQL
+## install and set up Apache, PHP
 
 * sudo apt install apache2
 * sudo apt install php
