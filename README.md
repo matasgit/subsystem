@@ -27,10 +27,11 @@ replace setup_11.x with current version</li>
 * git config --global user.name "Your Name"
 
 
-## install and set up Apache, PHP
+## Install and set up Apache, PHP
 
 * sudo apt install apache2
 * sudo apt install php
+
 
 ## install PostgreSQL
 
@@ -47,6 +48,7 @@ replace setup_11.x with current version</li>
 ### run this for either
 
 * sudo apt install postgresql postgresql-contrib
+
 
 ### Restart Apache and PostgreSQL
 
