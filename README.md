@@ -104,3 +104,13 @@ replace setup_11.x with current version</li>
 
 * sudo nano /etc/inputrc
 * uncomment set bell-style none
+
+
+## Uning default terminal colours in tmux
+
+* nano ~/.tmux.conf
+* paste in
+```
+set -g default-terminal "xterm-256color"
+set-option -ga terminal-overrides ",xterm-256color:Tc"
+```
