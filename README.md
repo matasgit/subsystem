@@ -20,6 +20,15 @@ Linux, Node.js, npm, Git, Apache, PHP, PostgreSQL
 replace setup_11.x with current version</li>
 
 
+## Update Node.js and npm to the latest version
+
+* sudo npm cache clean -f
+* sudo npm install -g n
+* sudo n latest
+
+sudo n stable for the stabel version
+
+
 ## Install and setup Git
 
 * sudo apt install git
