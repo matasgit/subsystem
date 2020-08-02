@@ -86,7 +86,7 @@ sudo n stable for the stabel version
 <VirtualHost *:80>
         ServerName www.test.local
         ServerAdmin mac@localhost
-        DocumentRoot /var/www/devroot/projects/test
+        DocumentRoot /var/www/devroot/test
 
         <Directory /var/www/>
           Options Indexes FollowSymLinks
