@@ -14,10 +14,10 @@ Linux, Node.js, npm, Git, Apache, PHP, PostgreSQL
 ## Install and setup Node.js and npm
 
 * sudo apt install curl 
-* url -sL https://deb.nodesource.com/setup_11.x | sudo bash -
+* curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 * sudo apt install nodejs
 
-replace setup_11.x with current version</li>
+replace 14 with current version</li>
 
 
 ## Update Node.js and npm to the latest version
