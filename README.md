@@ -123,3 +123,9 @@ sudo n stable for the stabel version
 set -g default-terminal "xterm-256color"
 set-option -ga terminal-overrides ",xterm-256color:Tc"
 ```
+
+
+## Posh terminal
+
+Follow this tutorial
+https://www.hanselman.com/blog/HowToMakeAPrettyPromptInWindowsTerminalWithPowerlineNerdFontsCascadiaCodeWSLAndOhmyposh.aspx
