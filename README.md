@@ -21,7 +21,7 @@ Linux, Node.js, npm, Git, Apache, PHP, PostgreSQL
 replace 14 with current version</li>
 
 
-## Update Node.js and npm to the latest version
+## (ignore if the step above worked well) Update Node.js and npm to the latest version
 
 * sudo npm cache clean -f
 * sudo npm install -g n
