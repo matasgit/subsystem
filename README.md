@@ -8,8 +8,8 @@ Linux, Node.js, npm, Git, Apache, PHP, PostgreSQL
 * press win key
 * type Turn Windows Features on or of
 * tick Windows Subsystem for Linux
-* go to MS store and install your flavor of linux
-* go to MS store and install Windows Terminal
+* go to MS store search and install your flavor of linux
+* go to MS store search and install Windows Terminal
 
 
 ## Install and setup Node.js and npm
