@@ -128,5 +128,5 @@ set-option -ga terminal-overrides ",xterm-256color:Tc"
 
 ## Posh terminal
 
-Follow this tutorial
+Follow this tutorial. Note: the only font you'll need to install is CascadiaCodePL
 https://www.hanselman.com/blog/HowToMakeAPrettyPromptInWindowsTerminalWithPowerlineNerdFontsCascadiaCodeWSLAndOhmyposh.aspx
