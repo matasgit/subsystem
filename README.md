@@ -1,4 +1,4 @@
-# Cheatsheet on how to setup Windows subsystem for Linux (WSL) for the local development
+# Cheatsheet on how to setup Windows subsystem for Linux (WSL2) for the local development
 
 Linux, Node.js, npm, Git, Apache, PHP, PostgreSQL
 
