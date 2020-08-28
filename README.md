@@ -63,7 +63,7 @@ sudo n stable for the stabel version
 * sudo apt install postgresql postgresql-contrib
 
 
-### Restart Apache and PostgreSQL
+### Restart Apache and PostgreSQL (you might be getting some warnings/errors for apache but I think it's safe to ignore them)
 
 * sudo service apache2 restart
 * sudo service postgresql restart
@@ -110,13 +110,13 @@ sudo n stable for the stabel version
 * add a new line 127.0.0.1 www.test.local
 
 
-## Disable terminal's bell sound on tab-completion
+## Disable terminal's bell sound on tab-completion (optional if using Windows Terminal)
 
 * sudo nano /etc/inputrc
 * uncomment set bell-style none
 
 
-## Uning default terminal colours in tmux
+## Uning default terminal colours in tmux (optional if using Windows Terminal)
 
 * nano ~/.tmux.conf
 * paste in
