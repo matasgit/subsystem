@@ -59,7 +59,7 @@ sudo n stable for the stabel version
 
 ### run this for either
 
-* sudo apt-get update
+* sudo apt update
 * sudo apt install postgresql postgresql-contrib
 
 
