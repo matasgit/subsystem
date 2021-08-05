@@ -130,3 +130,5 @@ set-option -ga terminal-overrides ",xterm-256color:Tc"
 
 Follow this tutorial. Note: the only font you'll need to install is CascadiaCodePL
 https://www.hanselman.com/blog/HowToMakeAPrettyPromptInWindowsTerminalWithPowerlineNerdFontsCascadiaCodeWSLAndOhmyposh.aspx
+
+Notes: install CascadiaCodePL-Regular.otf font. In the Windows Terminal go to settings, select the profile (Ubuntu, Debian etc). Click on the Appearance tab and select the Cascadia Code PL font face
